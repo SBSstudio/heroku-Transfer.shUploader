@@ -8,4 +8,4 @@ RUN git clone https://github.com/SBSstudio/heroku-Transfer.shUploader
 RUN cd heroku-Transfer.shUploader
 WORKDIR /heroku-Transfer.shUploader
 RUN pip3 install -U -r requirements.txt
-CMD python3 main.py
+CMD python3 download_from_url.py
